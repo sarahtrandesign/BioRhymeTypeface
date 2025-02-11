@@ -1,0 +1,795 @@
+@charset "UTF-8";
+
+
+body {
+	background-color:rgba(255,255,255,255);
+	font-family: "BioRhyme", serif;
+	background-image:url("images/test1.png");
+	background-attachment: fixed;
+	background-size: 100%;
+	background-repeat: repeat;
+	background-position: center;
+	width:80%;
+	margin:auto;
+
+}
+
+
+header {
+	/*background-image: url("images/bgr1.png");
+	background-attachment: scroll;
+	background-size: 85%;
+	background-repeat: no-repeat;
+	background-position: center;*/	
+}
+
+article{
+	
+	/*box-shadow:1px 1px 10px red; */
+	
+}
+
+html {scroll-behavior: smooth;}
+
+
+/* Navigation rules are toward the bottom of this file */
+
+
+section {
+	
+}
+
+/* Footer rules are toward the bottom of this file */
+
+
+
+#wrapper{
+	padding-top: 18em;
+
+	
+	
+}
+
+#intro_paragraphs{
+	padding: 3em;
+	color:midnightblue;
+	font-size: 0.8vw;
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap:70px;
+	margin-top: 8em;
+	margin-bottom: 10em;
+	
+	
+
+
+}
+
+#title_background{
+
+}
+
+/* ----------------- SECTION 1: CHARACTERS ----------------- */
+
+
+#one_character_display {
+	margin: 0 auto;
+	width: 80%;
+	background-color: white;
+	padding: 8em;
+	border-radius: 3em;
+	box-shadow: 2px 2px 20px rgba(255,0,0,0.15);
+}
+
+#character_set_title{
+	margin-top: -0.5em;
+}
+
+	
+ul.letter_tiles {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: auto;
+	list-style: none;
+
+	
+}
+
+ul.letter_tiles li {
+	padding: 1em;
+	list-style: none;
+	font-size: 4em;
+}
+
+
+.pop{
+	font-weight: 900;
+	color: rgba(51,50,255,1);
+}
+
+.pop:hover{
+	font-weight:200;
+	color:rgba(255,0,0,1);
+	transition: all 0.2s ease;
+	transform: scale(1.2);
+}
+
+.pop1{
+	font-weight: 700;
+	color: rgba(255,0,0,1)
+}
+.pop1:hover{
+	font-weight:900;
+	color:rgba(51,50,255,1);
+	transition: all 0.2s ease;
+	transform: scale(1.2);
+}
+
+.pop2{
+	font-weight: 200;
+	color: rgba(255,0,0,1);
+}
+.pop2:hover{
+	font-weight:800;
+	color:rgba(51,50,255,1);
+	transition: all 0.2s ease;
+	transform: scale(1.2);
+}
+.pop3{
+	font-weight: 400;
+	color: rgba(51,50,255,1);
+}
+.pop3:hover{
+	font-weight:900;
+	color:rgba(255,0,0,1);
+	transition: all 0.2s ease;
+	transform: scale(1.2);
+}
+
+/* ----------------- SECTION 2: DISPLAY WORDS ----------------- */
+
+
+#two_display_level_type {
+	padding-bottom: 2em;
+	padding: 5em;
+	line-height: 8em;
+}
+#display_type_title{
+	color:rgba(51,50,255,1);
+	margin-top: 4em;
+	margin-bottom: -2em;
+}
+.display {
+	font-size: 8em;
+	font-weight:700;
+	color: rgba(255,0,0,1);
+}
+
+.display:hover{
+	font-size: 8em;
+	font-weight:200;
+	color: rgba(51,50,255,1);
+	transition: all 0.5s ease;
+	transform: rotate(-2deg);
+}
+
+.display1 {
+	font-size: 4em;
+	font-weight: 400;
+	color: rgba(51,50,255,1);
+	text-align: right;
+}
+.display1:hover{
+	font-size: 4em;
+	font-weight:800;
+	color: rgba(255,0,0,1);
+	transition: all 0.5s ease;
+	transform: rotate(2deg);
+}
+
+.display2 {
+	font-size: 6em;
+	font-weight: 500;
+	color: rgba(51,50,255,1);
+	text-align: center;
+}
+.display2:hover{
+	font-size: 6em;
+	font-weight:900;
+	color: rgba(255,0,0,1);
+	transition: all 0.5s ease;
+	transform: rotate(-2deg);
+}
+
+/* ----------------- SECTION 3: BODY COPY PARAGRAPHS ----------------- */
+
+
+
+#three_body_copy_samples {
+	margin: 0 auto;
+	background-color: rgba(255,255,255,1);
+	padding: 5em;
+	padding-left: 16em;
+	padding-right: 16em;
+	margin-left: -10.25em;
+	margin-right: -10.25em;
+		box-shadow: 2px 2px 20px rgba(255,0,0,0.15);
+}
+
+#body_copy_paragraphs{
+	display:grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 50px;
+	padding: 1em;
+	padding-bottom: 2em;
+}
+
+#body_copy1{
+	font-size: 0.8vw;
+	font-weight:400;
+}
+
+#body_copy2{
+	font-size: 1.2vw;
+	margin-top: 400px;
+	font-weight: 300;
+}
+
+#body_copy3{
+	font-size: 1vw;
+	font-weight: 200;
+	
+}
+
+#body_copy4{
+	font-size: 0.8vw;
+	font-weight: 700;
+	margin-top: 412px;
+}
+
+.body_copy_italics{
+	font-style: italic;
+}
+
+.body_copy_bold{
+	font-weight: 800;
+}
+
+.first_letter1{
+	font-size: 3vw;
+	color:rgba(255,0,0,1);
+	font-weight: 900;
+}
+
+.first_word1{
+	font-size: 1vw;
+	color:rgba(51,50,255,1);
+	font-weight: 700;
+	
+}
+
+.first_letter2{
+	font-size: 3vw;
+	color:rgba(51,50,255,1);
+	font-style:italic;
+	
+}
+
+.first_word2{
+	font-size: 1vw;
+	color:rgba(255,0,0,1);
+	font-weight: 900;
+}
+/* ----------------- SECTION 4: MICROTYPESETTING  ----------------- */
+
+
+
+#four_microtypesetting {
+	padding-top:7em;
+}
+
+
+#microtypesetting_title{
+	color:rgba(51,50,255,1);
+	/*background-color:white;
+	padding: 2em;*/
+	padding-bottom: 2em;
+}
+
+ul.microtypesetting_paragraphs{
+	/*display:flex;
+  	overflow-x:scroll;
+	gap: 100px;
+	list-style: none;
+	flex-direction: row;*/
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto;
+	list-style: none;
+	gap: 80px;
+	
+
+}
+
+#microtype_paragraph1{
+	background-color: rgba(255,0,0,0.05);
+	border-radius: 1em;
+	padding: 2em;
+	display: grid;
+  	grid-template-columns: 1fr 1fr;
+  	grid-template-rows: auto;
+	grid-gap: 2em;	
+}
+
+#microtype_head1{
+	font-size:2em;
+	line-height: 1.2em;
+	font-weight: 900;
+	color: rgba(255,0,0,1);
+	align-items:center;
+	
+}
+
+#microtype_head1:hover{
+	transform: scale(1.05);
+	transition: all 0.2s ease;
+}
+
+#microtype_subhead1{
+	margin-top: -2.5em;
+	border-bottom: 1.5px solid midnightblue;
+	padding-bottom: 1.5em;
+	color:rgba(51,50,255,1);
+	font-style:italic;
+	
+}
+
+#microtype_datetime1{
+	color:midnightblue;
+	
+}
+
+#microtype_cap1{
+	display: grid;
+	align-items: center;
+	color: midnightblue;
+	font-size: 0.8em;
+	
+}
+
+/* ~~ */
+
+#microtype_paragraph2{
+	margin-top: -4em;
+}
+
+/*#microtype_paragraph2_subhead{
+	display: flex;
+	gap: 30px;
+	
+}
+*/
+#microtype_head2{
+	font-size:3.35vw;
+	font-weight: 200;
+	color: rgba(255,0,0,1);
+	align-items:center;
+	margin-bottom:-1em;
+}
+
+#microtype_subhead2{
+	color:rgba(51,50,255,1);
+	font-size: 1.5em;
+	margin-top: 2em;
+	
+	
+	
+}
+#microtype_datetime2{
+	background-color:red;
+	font-size: 1em;
+	color:white;
+	padding: 1em;
+	position: absolute;
+	border-radius: 1em;
+	margin-top:-70px;
+	margin-left: 295px;
+	transform:rotate(-3deg);
+	
+}
+
+#microtype_datetime2:hover{
+	background-color:red;
+	font-size: 1em;
+	color:white;
+	padding: 1em;
+	position: absolute;
+	border-radius: 1em;
+	margin-top:-70px;
+	margin-left: 295px;
+	transform:rotate(1deg);
+	transition: all 0.3s ease;
+}
+
+
+#microtype_cap2{
+	display: grid;
+	align-items: center;
+	color: midnightblue;
+	font-size: 0.8em;
+	max-width: 32ch;
+	margin-top:-30px;
+	font-weight:300;
+	font-style:italic;
+	
+}
+
+/* ~~ */
+
+#microtype_paragraph3{
+	/*display: grid;
+  	grid-template-columns: 1fr 1fr;
+  	grid-template-rows: auto;
+	grid-gap: -50px;*/
+	background-color: white;
+	border: 1px solid midnightblue;
+	border-radius: 1em;
+	padding: 1em;
+}
+
+#microtype_paragraph3:hover{
+	transform:scale(1.05) rotate(-2deg);
+	transition: all 0.3s ease;
+}
+#microtype_cap3{
+	/*margin-bottom:-4em;
+	margin-left: -2em;*/
+	font-size:0.7em;
+	color: midnightblue;
+	text-align:center;
+	max-width: 40ch;
+	margin:auto;
+	margin-top:1em;
+	
+}
+
+#microtype_container3{
+	margin:auto;
+	/*align-items: center;
+	transform: rotate(-90deg);
+	padding-left:1em;
+	margin-bottom: -2em;
+	background-color:rgba(51,50,255,1);
+	font-size: 1em;
+	color:white;
+	padding: 1em;
+	position: absolute;
+	border-radius: 50%;
+	margin-top:120px;
+	margin-left: 40px;
+	transform:rotate(3deg);
+	align-content: center;*/
+}
+	
+	
+#microtype_head3{
+	font-weight: 300;
+	font-size:2em;
+	color:red;
+	text-align: center;
+	margin-top:0.35em;
+	/*background-color:white;
+	position: absolute;
+	padding:0.2em;
+	padding-left: 2em;
+	padding-right: 2em;
+	border-radius: 0.8em;
+	margin-top:-1.7em;
+	margin-left: 2.7em;
+	border: 1px solid midnightblue;*/
+}
+
+#microtype_subhead3{
+	/*line-height: -2em;*/
+	text-align: center;
+	color: rgba(51,50,255,1);
+	font-size: 1em;
+	margin-top: -2.4em;
+	margin-bottom:0.5em;
+
+	
+}
+#microtype_datetime3{
+	margin:auto;
+	color: midnightblue;
+	text-align: center;
+	font-style:italic;
+	border-bottom: 2px solid midnightblue;
+	padding-bottom: 1em;
+	width: 100px;
+}
+
+/* ~~ */
+
+
+#microtype_paragraph4{
+	border-right: 15px solid midnightblue;
+	margin:auto;
+	padding-right:2em;
+}
+
+#microtype_head4{
+	font-weight: 900;
+	font-size:2.5em;
+	color:rgba(51,50,255,1.00);
+	margin:auto;
+	text-align: right;
+	font-style: italic;
+	animation-name:head_4;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes head_4{
+	0% {
+		text-shadow: 0px 0px 5px red;
+		color: rgba(255,255,255,1);
+	}
+  	25% {
+		text-shadow: 0px 0px 5px rgba(51,50,255,1);
+		color: rgba(255,255,255,1);
+	}
+	50% {
+		text-shadow: 0px 0px 5px red;
+		color: rgba(255,255,255,1);
+	}
+  	75% {
+		text-shadow: 0px 0px 5px rgba(51,50,255,1);
+		color: rgba(255,255,255,1);
+	}
+	100% {
+		text-shadow: 0px 0px 5px red;
+		color: rgba(255,255,255,1);
+	}
+}
+
+#microtype_subhead4 {
+	font-weight: 700;
+	font-size:1.5em;
+	color:rgba(255,0,0,1.00);
+	margin:auto;
+	margin-top: -0.2em;
+	text-align: right;	
+	}
+	
+#microtype_datetime4{
+	font-weight: 300;
+	font-size:1.2em;
+	color:rgba(51,50,255,1);
+	margin:auto;
+	text-align: right;
+}
+
+
+#microtype_cap4{
+	font-weight: 700;
+	font-size:0.9em;
+	color:midnightblue;
+	max-width: 43ch;
+	padding-top: 1em;
+	text-align: right;
+}
+
+/* ~~ */
+
+
+
+
+
+
+/* ----------------- MISCELLANEOUS TYPESETTING ----------------- */
+
+/*HEADER*/
+
+h1 {
+	font-size: 10vw;
+	color:rgba(255,0,0,1);
+	font-weight:800;
+	text-align:center;
+	margin: 0px auto;
+	margin-top: -1.3em;
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+	padding-top: 0.8em;
+	animation-name:page_header;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes page_header{
+	0% {
+		font-weight: 900;
+	}
+  	25% {
+		font-weight:500;
+	}
+	50% {
+		font-weight: 200;
+	}
+  	75% {
+		font-weight:500;
+	}
+	100% {
+		font-weight: 900;
+	}
+}
+
+h2 {
+	color:rgba(50,51,255,1);
+	text-align: center;
+	margin-top: -12em;
+	padding-bottom: 8em;
+	font-size: 1.8vw;		
+	
+	
+}
+
+
+h3 {
+	color:red;
+	font-weight: 800;
+	font-size: 2em;
+	
+}
+
+
+h4 {
+
+	
+}
+
+
+h5 {
+
+	
+}
+
+
+h6 {
+	
+}
+
+
+p {
+	color:midnightblue;
+}
+
+
+footer p {
+	
+}
+
+caption {
+}
+
+
+/* Perhaps you'd like to incorporate some other text-based tags, such as a quote, in the HTML source code. Style with the quote selector, below. */
+
+quote {
+	
+}
+
+
+
+/* ----------------- NAVIGATION AND LINKS ----------------- */
+
+
+nav {
+	position: sticky;
+	background-color: white;
+	top:0;
+	z-index:100;
+	margin-left: -1em;
+	margin-right: -1em;
+	margin-top:-1em;
+	padding: 0.01em;
+	
+}
+
+nav ul {
+	list-style:none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+	
+}
+
+
+nav ul li {
+
+}
+
+
+nav ul li a {
+	text-decoration: none;
+	color:rgba(255,0,0,1);
+	
+}
+
+
+nav ul li a:link {
+	
+}
+
+
+nav ul li a:visited {
+	
+}
+
+
+nav ul li a:hover {
+	color:rgba(50,51,255,1);
+	transition: all 0.2s ease;
+	
+}
+
+
+nav ul li a:active {
+	
+}
+
+
+/* ----------------- FOOTER AND ITS LINKS ----------------- */
+
+footer {
+	margin-top: 6em;
+	padding: 2em;
+	color: midnightblue;
+	font-size: 0.8em;
+}
+
+
+footer a:link {
+	text-decoration: none;
+	color:rgba(255,0,0,1);
+	
+	
+}
+
+
+footer a:visited {
+	color:firebrick;
+	
+}
+
+
+footer a:hover {
+	color:rgba(50,51,255,1);
+	transition: all 0.2s ease;
+	
+}
+
+
+footer a:active {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
